@@ -1,22 +1,27 @@
+using HR.LeaveManagement.API.Models;
 using HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeaveType;
 using HR.LeaveManagement.Application.Features.LeaveType.Commands.DeleteLeaveType;
 using HR.LeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
 using HR.LeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTypes;
 using HR.LeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeDetails;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HR.LeaveManagement.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[CustomAuthorize]
 public class LeaveTypesController : ControllerBase
 {
     private readonly IMediator _mediator;
+    private  IConfiguration _configuration;
 
-    public LeaveTypesController(IMediator mediator)
+    public LeaveTypesController(IMediator mediator, IConfiguration configuration)
     {
         _mediator = mediator;
+        _configuration = configuration;
     }
 
     [HttpGet]

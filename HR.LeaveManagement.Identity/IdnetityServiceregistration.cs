@@ -18,7 +18,7 @@ public static class IdnetityServiceregistration
     public static IServiceCollection ConfigureIdentityServices(this IServiceCollection services,
         IConfiguration configuration)
     {
-        services.Configure<JwtSettings>(configuration.GetSection("jwtSettings"));
+        services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
 
         services.AddDbContext<HrDbContext>(options => options
             .UseSqlServer(
