@@ -5,4 +5,6 @@
     &lt;TestId&gt;xUnit::658CE6F7-EF43-4A4B-BB21-5FBE8F0D3E3D::net6.0::HR.LeaveManagement.Persistence.IntegrationTests.HrDbContextTests.Save_SetDateModifiedValue&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::658CE6F7-EF43-4A4B-BB21-5FBE8F0D3E3D::net6.0::HR.LeaveManagement.Persistence.IntegrationTests.HrDbContextTests.Save_SetDateCreatedValue&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	
+	</wpf:ResourceDictionary>

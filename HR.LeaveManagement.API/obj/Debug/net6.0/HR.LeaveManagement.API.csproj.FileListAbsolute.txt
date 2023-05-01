@@ -107,3 +107,11 @@
 /home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/obj/Debug/net6.0/HR.LeaveManagement.API.pdb
 /home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/obj/Debug/net6.0/HR.LeaveManagement.API.genruntimeconfig.cache
 /home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/obj/Debug/net6.0/ref/HR.LeaveManagement.API.dll
+/home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/bin/Debug/net6.0/HR.LeaveManagement.Identity.dll
+/home/abhinandhukr/learning/HR.LeaveManagement.Clean/HR.LeaveManagement.API/bin/Debug/net6.0/HR.LeaveManagement.Identity.pdb
