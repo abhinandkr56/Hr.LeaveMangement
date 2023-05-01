@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e53b6d8_002D960e_002D4a58_002Da671_002D28dc1859e701/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetLeaveTypesListTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::D8C5E211-6EB6-433A-953F-88C3272380B5::net6.0::HR.LeaveManagement.Application.UnitTests.Features.LeaveTypes.Queries.GetLeaveTypesQueryHandlerTests.GetLeaveTypesListTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::658CE6F7-EF43-4A4B-BB21-5FBE8F0D3E3D::net6.0::HR.LeaveManagement.Persistence.IntegrationTests.HrDbContextTests.Save_SetDateModifiedValue&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::658CE6F7-EF43-4A4B-BB21-5FBE8F0D3E3D::net6.0::HR.LeaveManagement.Persistence.IntegrationTests.HrDbContextTests.Save_SetDateCreatedValue&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

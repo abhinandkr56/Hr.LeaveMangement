@@ -1,0 +1,52 @@
+@page "/leavetypes"
+@using HR.LeaveManagement.UI.Models
+@using HR.LeaveManagement.UI.Contracts
+@inject ILeaveTypeRepository _LeaveTypeRepository
+<h3>index</h3>
+
+<div>
+    <button @onclick="CreateLeaveType" class="btn btn-success">Add Leave type</button>
+</div>
+
+@if (leaveTypes == null)
+{
+    <p>Loadinh......</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Default Days</th>
+           
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var leavetype in leaveTypes)
+        {
+            <tr>
+                <td>@leavetype.Id</td>
+                <td>@leavetype.Name</td>
+                <td>@leavetype.DefaultDays</td>
+              
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@code {
+
+    List<LeaveTypeDto> leaveTypes = new List<LeaveTypeDto>();
+    
+    private void CreateLeaveType()
+    {
+        throw new NotImplementedException();
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        leaveTypes = (await _LeaveTypeRepository.GetLeaveTypes()).Data;
+    }
+
+}

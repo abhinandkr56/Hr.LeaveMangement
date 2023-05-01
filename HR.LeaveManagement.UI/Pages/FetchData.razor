@@ -1,0 +1,63 @@
+﻿@page "/fetchdata"
+@using HR.LeaveManagement.UI.Models
+@inject IHrHttpClient Client
+
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (LeaveTypes == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Temp. (C)</th>
+            <th>Temp. (F)</th>
+           
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var leavetype in LeaveTypes)
+        {
+            <tr>
+                <td>@leavetype.Id</td>
+                <td>@leavetype.Name</td>
+                <td>@leavetype.DefaultDays</td>
+              
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private WeatherForecast[]? forecasts;
+    private List<LeaveTypeDto> LeaveTypes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        
+        Console.WriteLine("count =" + LeaveTypes.Count);
+    }
+
+    public class WeatherForecast
+    {
+        public DateTime Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+}
